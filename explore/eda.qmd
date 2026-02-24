@@ -56,6 +56,7 @@ paste("Average score:", round(mean_score, 1))
 paste("Standard deviation:", round(sd_score, 1))
 ```
 
+The standard deviation score was , this is very large...
 
 ## Visualize the data
 

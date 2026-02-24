@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Git & GitHub Setup and Practice Checklist</title>
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    margin: 2rem auto;
+    max-width: 1400px;
+    color: #222;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: #333;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  @media (max-width: 800px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.2em;
+    margin-top: 1.2em;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 1.2em;
+  }
+
+  li {
+    margin: 0.4em 0;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+
+  .callout-warning {
+    border-left: 4px solid #e74c3c;
+    background: #fff5f5;
+    padding: 1em;
+    margin: 1em 0;
+  }
+
+  span[style*="color:red"] {
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<h1>Git &amp; GitHub Setup and Practice Checklist</h1>
+
+<div class="grid">
+  <div>
+    <h2>1. Setup</h2>
+    <ul>
+      <li><input type="checkbox"> Create an account at GitHub.com</li>
+      <li><input type="checkbox"> Install git on your machine</li>
+      <li><input type="checkbox"> Install GitHub Desktop</li>
+      <li><input type="checkbox"> Log into your GitHub account inside GitHub Desktop</li>
+    </ul>
+
+    <h2>2. Create Your First Repository - using GitHub Desktop</h2>
+    <ul>
+      <li><input type="checkbox"> Create a blank repository
+        <ul>
+          <li><input type="checkbox"> Add a file to your repo</li>
+          <li><input type="checkbox"> Stage your file (this is automatic in GitHub Desktop)</li>
+          <li><input type="checkbox"> Commit your changes with a commit message</li>
+          <li><input type="checkbox"> Push/Publish your updated repo to GitHub server</li>
+          <li><span style="color:red">Time to try something scary...</span>
+            <ul>
+              <li><input type="checkbox"> Delete your local folder from your machine! Scary!</li>
+              <li><input type="checkbox"> Clone your repo onto your machine from the GitHub server</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>3. Working with Files</h2>
+    <ul>
+      <li><input type="checkbox"> Create at least one new file in your repo</li>
+      <li><input type="checkbox"> Modify an existing file in your repo</li>
+      <li><input type="checkbox"> Commit the changes, and push to GitHub server</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>4. Exploring on GitHub.com</h2>
+    <ul>
+      <li><input type="checkbox"> Visit your repo at the GitHub.com website
+        <ul>
+          <li><input type="checkbox"> Look at the history of commits and commit messages</li>
+          <li><input type="checkbox"> Make a small edit to a file on the GitHub website</li>
+          <li><input type="checkbox"> Commit your small change to your repo, with a commit message</li>
+          <li><input type="checkbox"> Return to GitHub Desktop, fetch and pull the repo from the server</li>
+          <li><input type="checkbox"> Inspect the file you edited on the server, to see if the change has arrived</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>5. Advanced Experiment</h2>
+    <p><span style="color:red">Want to try and break things? Yes please!</span></p>
+
+    <div class="callout-warning">
+      <p><strong>Warning:</strong> These are steps not recommended normally; they are just to show you something to avoid.</p>
+    </div>
+
+    <ul>
+      <li><input type="checkbox"> Make a file change in your local repo on your machine</li>
+      <li><input type="checkbox"> Commit your changes but DO NOT push to the GitHub server</li>
+      <li><input type="checkbox"> Return to GitHub Desktop and try to push your repo to the GitHub server</li>
+      <li><input type="checkbox"> Visit the GitHub website and change the same file (in a different way) on the website</li>
+      <li><input type="checkbox"> Commit your change on GitHub.com</li>
+    </ul>
+
+    <p><em>What happens?</em></p>
+  </div>
+</div>
+
+</body>
+</html>
